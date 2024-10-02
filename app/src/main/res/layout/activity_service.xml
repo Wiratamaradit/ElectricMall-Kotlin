@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Service"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#58bc07"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="What can we help you find ?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#58bc07"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Search">
+    </EditText>
+    <Button
+        android:id="@+id/btn_proses"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <Button
+        android:id="@+id/btnhome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_gravity="center"
+        android:text="Home"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+</LinearLayout>
